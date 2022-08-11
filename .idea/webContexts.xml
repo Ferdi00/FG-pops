@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/category/update-alert.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/category" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/crm/categories.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/crm" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home-products.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/partials/alert.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/partials" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/partials/head.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/partials" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/partials/topbarhome.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/partials" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/site/cart.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/site" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/site/category-products.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/site" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+      </map>
+    </option>
+  </component>
+</project>

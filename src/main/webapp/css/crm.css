@@ -1,0 +1,135 @@
+.app{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.topbar, .sidebar{
+    background-color: #ba181b;
+    padding: .5rem;
+}
+.info{
+    text-align: right;
+    border: 1px solid darkred;
+    padding-right: 1rem;
+    background-color: #ba181b;
+    color: white;
+}
+
+.sidebar {
+    flex-basis: 320px;
+    transition: all .3s ease-in-out;
+}
+
+.content{
+    background-color: white;
+    flex: 1;
+    transition: all .3s ease-in-out;
+}
+
+.menu > a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.body{
+    flex-grow: 1;
+}
+
+.topbar > .account {
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+    .topbar > .account {
+        display: block;
+    }
+}
+
+
+
+.topbar > .command{
+    flex: 1;
+}
+
+.topbar > *{
+    color: white;
+    margin-right: 8px;
+}
+
+body{
+    margin: 0;
+}
+
+.topbar input{
+    height: 1.2rem;
+    font-size: 100%;
+    text-align: center;
+}
+
+
+
+.sidebar.collapse {
+    transform: translate3d(-340px ,0 ,0);
+}
+
+.content.full-width {
+    margin-left: -340px;
+
+}
+
+.topbar > svg{
+    cursor: pointer;
+}
+
+.body > div {
+    background-color: lightcoral;
+    box-shadow: #660708 ;
+    margin: 10px;
+    text-align: center;
+}
+
+.body > div > h4 {
+    margin: 0;
+    padding: 0.5rem;
+    color: black;
+    background-color: darkred;
+}
+
+.body > div > h2 {
+    font-size: 3rem;
+    justify-self: center;
+}
+
+.menu > img{
+    cursor: pointer;
+}
+
+.menu a:hover{
+    background-color: darkred;
+}
+
+.shopping-cart{
+    position: relative;
+    margin-right: 1rem;
+}
+
+.shopping-cart > .badge{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    font-size: 0.7rem;
+
+
+}
+
+
+.info a{
+    text-decoration: none;
+    color: white;
+}
+.info a:hover{
+    color: darkgrey;
+}
+
+
